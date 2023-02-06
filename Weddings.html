@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+            body
+            {
+                background:rgb(238, 230, 230);
+            }
+
+            body
+            {
+                margin: 0;
+                padding: 0;
+                font-family:sans-serif;
+
+            }
+
+            .title{
+                width: 100%;
+                height: 50px;
+            }
+
+            .container{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                width: 100%;
+                justify-content: center;
+            }
+
+            .box
+            {
+                margin: 15px;
+                width: 48%;
+                padding: 20px;
+                box-sizing: border-box;
+                background:rgb(196, 155, 196) ;
+                border-radius: 4px;
+                box-shadow: 0 5px 15px regba(0,0,0,.5);
+                overflow: hidden;
+	            box-shadow: 5px 5px 15px 0px rgb(0, 0, 0);
+            }
+
+            .ul_1{
+                list-style-type: none;
+            }
+            
+            nav{
+                background-color: #33a4dd3b;
+                color: black;
+                margin: -17px;
+                padding: 3px;
+                padding-top: 20px;
+            }
+            
+            nav ul li{
+                display: inline-block;
+                color: black;
+                margin-left: 210px;
+                font-size: 20px;
+            }
+            
+            .img_logo{
+                display: inline-block;
+                margin-left: 160px;
+                position: absolute;
+                top: -0.6%;
+            left: 36%;
+            }
+
+            .dropdown{
+                position: relative;
+                display: inline-block;
+            }
+
+            .dropdown:hover{
+                cursor:pointer;
+            }
+
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 100px;
+                box-shadow: 0px 8px 16px 0px #93b5c6;
+                padding: 10px 15px;
+                z-index: 1;
+            }
+
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+
+            nav ul li p{
+               font-size: 18px;
+            }
+
+            .dropdown-content p a{
+                text-decoration: none;
+                color: black;
+            }
+
+            .dropdown-content p a:hover{
+                color: #16709c;
+            }
+
+            h1
+            {
+                text-align: center;
+            }
+
+            .i
+            {
+                float: right;
+                margin-top:50px ;  
+                margin-right: 85px;              
+            }
+
+            .container
+            {
+                background-color:rgb(228, 208, 228);
+                width: 450px;
+                height: 250px;
+                float: right;
+                margin-right: 70px;
+                margin-top: 50px;
+
+            }
+
+            .h
+            {   
+                font-size: 50px;
+                margin-top: 175px;
+                margin-left: 175px;
+            }
+
+            .p
+            {
+                font-size: 28px;
+                margin-left: 130px;
+            }
+
+            .left
+            {
+                background-color:rgb(228, 208, 228);
+                width: 450px;
+                height: 250px;
+                float: left;
+                margin-left: 70px;
+                margin-top: 135px;
+            }
+            
+            .ii
+            {
+                float: left;
+                margin-top:55px ;  
+                margin-left: 75px;              
+            }
+            
+            .hh
+            {   
+                font-size: 50px;
+                float: right;
+                margin-top: 220px;
+                margin-right:580px;
+            }
+
+            .pp
+            {   
+                font-size: 28px;
+                float: right;
+                margin-right:375px;
+
+            }
+
+             .iii
+            {
+                float: right;
+                margin-top:50px;
+                margin-right: 100px;
+            }
+
+            .R
+            {
+                background-color:rgb(228, 208, 228);
+                width: 450px;
+                height: 250px;
+                margin-top: 470px;
+                margin-left: 800px;                
+
+            }
+
+             .h3
+            {
+                font-size: 50px;
+                margin-left: 175px;
+               margin-top: -150px;
+            }
+
+            .p3
+            {
+                font-size: 28px;
+                margin-left: 175px;
+                margin-top:40px ;
+            } 
+
+            .L2
+            {
+                background-color:rgb(228, 208, 228);
+                width: 450px;
+                height: 250px;
+                margin-top:100px;
+                margin-left: 70px;
+            }
+
+            .L
+            {
+                margin-top: 50px;
+                margin-left:100px;
+            }
+
+            .h4
+            {
+                font-size: 40px;
+                float: right;
+                margin-top: -130px;
+                margin-right:470px;
+            }
+
+            .p4
+            {
+                font-size: 28px;
+                float: right;
+                margin-top: -50px;
+                margin-left:315px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul class="s_nav">
+                <li><a href="ET_final.html" target="_self" style="text-decoration: none; color: black;">Home</a></li>
+                <li><a href="About us.html" target="_self" style="text-decoration: none; color: black;">About us</a></li>
+                <li><div class="img_logo">
+                    <img src="logoup.png" width="45px" height="45px" style="padding-top: 13px;">
+                </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <span>Events</span>
+                    <div class="dropdown-content">
+                        <p>
+                            <a href="birthday.html" target="_self">Birthdays</a>
+                        </p>
+                        <hr>
+                        <p>
+                            <a href="Weddings.html" target="_self">Weddings</a>
+                        </p>
+                        <hr>
+                        <p>
+                            <a href="ope.html" target="_self">Openings</a>
+                        </p>
+                        <hr>
+                    </div>
+                    <li><a href="Form.html" target="_blank" style="text-decoration: none; color: black;">Join us</a></li>
+                </div>
+            </li>
+        </ul>
+    </nav>
+        <h1><b>Weddings</b></h1>
+        <div class="container">
+            <div>
+                <img  class="i" src="W2.jpg" width="420px" height="250px">
+            </div>
+            
+        </div>
+
+        <div>
+            <h2 class="h"><em>Beach!</em></h2>
+            <p class="p">
+                <em>
+                    Dreamt to have your wedding by the beach!<br>
+                    Now you can achieve your dreams with us<br>
+                    for exclusive prices!
+                </em>
+            </p>
+        </div>
+
+
+        <div class="left">
+            <img class="ii" src="W8.jpg" width="420px" height="250px">
+        </div>
+
+        <div>
+            <h2 class="hh"><em>Open Air!</em></h2>
+            <p class="pp">
+                <em>
+                    Your wedding will be better than you dreamed,<br>
+                    you care about details and we care<br>
+                    about you.
+                </em>
+            </p>
+        </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+        <div class="R">
+            <div>
+                <img class="iii" src="W11.jpg"  width="420px" height="250px">
+            </div>
+        </div>
+
+        <div>
+            <h2 class="h3"><em>Buffet!</em></h2>
+            <p class="p3">
+                <em>
+                    You can choose from our various dishes,<br>
+                    just tell us what you want and we will do<br>
+                    it for you!
+                </em>
+            </p>
+        </div>
+
+        <div class="L2">
+            <div>
+                <img  class="L" src="W9.jpg" width="420px" height="250px">
+            </div>
+        </div>
+
+        <div>
+            <h2 class="h4"><em>Decoration</em></h2>
+            <p class="p4">
+                <em>
+                    Want it classic? Want it themed?<br>
+                    You deserve the best on your best day!<br>
+                    Just choose the theme you want and we will make it happen for you.
+                </em>
+            </p>
+        </div>
+    </body>
+</html>

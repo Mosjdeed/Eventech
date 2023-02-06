@@ -1,0 +1,40 @@
+body{
+    background-image: url("123");
+    background-position: center;
+    background-size: cover;
+
+}
+.kalam{
+    margin: 0px 100px 15px 0px;
+    padding-left: 25px;
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.kalam1{
+    margin: 0px 100px 15px 0px;
+    padding-left: 25px;
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 30px;    
+}
+.Sponge{
+    height: 30%;
+    width: 30%;
+     margin: 0%;
+     padding: 0%;
+    background-color: #ffe3e3  ;
+}
+.nav1{
+    list-style-type: none;
+    margin: 0px 0px 0px;
+    background-color: cadetblue;
+    width: 100%;
+    height: 100px;
+    
+}

@@ -1,0 +1,183 @@
+.ul_s_nav
+{
+    list-style-type: none;
+}
+nav{
+    background-color: #ddd9dd70;
+
+    color: black;
+    margin: -17px;
+    padding: 3px;
+    height: 60px;
+    width: 101.3%;
+    
+} 
+img{
+  float: left;
+  width: 35px;
+  height: 50px;
+}
+.kalamtagmo3{
+  float: right;
+  font-size: 24px;
+  color: white;
+  margin-right: 40px;
+
+}
+.tagamo3{
+  float: right;
+  width: 40%;
+  height: auto;
+  margin-top: 30px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+nav ul li{
+    display: inline-block;
+    color: black;
+    margin-left: 210px;
+    font-size: 20px;
+    
+    
+}
+.img_logo
+{
+  display: inline-block;
+  margin-left:160px;
+position: absolute ;
+top:-0.6%;
+left: 36%;
+  
+  
+
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown:hover
+  {
+
+cursor:pointer;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px #93b5c6;
+    padding: 10px 15px;
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
+  .dropdown-content p a:hover{ color: #16709C;
+  }
+  
+  nav ul li p{
+      font-size: 18px;
+  }
+  .dropdown-content  p a{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+
+  }
+
+  body{
+    background-image: url("BackgroundET.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover; 
+  }
+b{
+  color: rgb(226, 179, 179);
+}
+a{
+ text-decoration: none;
+ color: black;
+}
+      .kalam{
+          margin: 0px 10px 30px 0px;
+      }
+      
+      .kalam1{
+          margin: 0px 10px 40px 0px; 
+      }
+      .div_paragraph{
+          height: 50%;
+          width: 45%;
+          overflow: auto;
+           margin: 50px 0px 10px 10px;
+          padding-left: 25%;
+           font-size: 25px;
+           font-weight: 700;
+          line-height: 1.2;
+          padding: 35px;
+          color: rgb(255, 255, 255);
+      }
+      
+
+        .div_1{
+        display: inline-block;
+        width:700px ;
+        height:700px ;
+        background-position: center;
+        background-size:cover;
+        background-repeat: no-repeat;
+        margin-left: 400px;
+        margin-top: 80px;
+        background-image:url("48e8b273-f404-45c2-afcf-36a81c541209-removebg-preview.png");
+        
+
+        
+        }
+        
+        .div_1{
+          display: inline-block;
+          width: 1px;
+          height: 1px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-image:url(LOGOOO.JPG.png);}
+      
+      .div_f1
+      {
+          display: inline-block;
+          margin-right: 60px;
+          margin-left: 60px;
+          
+      }
+      
+      
+.div_f2
+{
+    display: inline-block;
+    
+}
+.Footer_title
+{
+    margin-left: 90px;
+}
+.div_f3
+{
+    display: inline-block;
+    margin-left: 300px;
+    
+}
+.footer{
+  background-color: #93b5c6;
+  color: black;
+  padding:3px;
+  position: relative;
+  width: 101%;
+  margin-top: 100px;
+  margin-bottom: -15px;
+  margin-left: -15px;
+  margin-right: 5px;
+}
